@@ -1,0 +1,26 @@
+{
+  "name": "createMd5",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=* nodemon test.js",
+    "dev-cli": "DEBUG=* nodemon bin/index.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": {
+    "name": "Josep Boada",
+    "email": "josep@h02e56.com",
+    "url": "http://www.h02e56.com"
+  },
+  "license": "",
+  "dependencies": {
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {
+    "tape": "^2.13.4",
+    "debug": "^2.1.1"
+  }
+}
