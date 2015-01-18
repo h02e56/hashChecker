@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "DEBUG=* nodemon test.js",
-    "dev-cli": "DEBUG=* nodemon bin/index.js"
+    "dev-cli": "DEBUG=* nodemon bin/index.js",
+    "test":"tape test/test.js"
   },
   "keywords": [
     "test"
